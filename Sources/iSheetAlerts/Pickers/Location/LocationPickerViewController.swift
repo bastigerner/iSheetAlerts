@@ -19,6 +19,7 @@ extension UIAlertController {
     }
 }
 
+@available(iOS 11.0, *)
 final class LocationPickerViewController: UIViewController {
 	
     struct CurrentLocationListener {

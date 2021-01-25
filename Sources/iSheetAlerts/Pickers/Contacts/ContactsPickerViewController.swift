@@ -28,6 +28,7 @@ extension UIAlertController {
     }
 }
 
+@available(iOS 10.0, *)
 final class ContactsPickerViewController: UIViewController {
     
     // MARK: UI Metrics

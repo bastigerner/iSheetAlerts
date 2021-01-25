@@ -57,6 +57,8 @@ extension UIAlertController {
     }
 }
 
+@available(iOS 11.0, *)
+@available(iOS 10.0, *)
 final class PhotoLibraryPickerViewController: UIViewController {
     
     public typealias SingleSelection = (PHAsset?) -> Swift.Void

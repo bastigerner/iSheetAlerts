@@ -3,6 +3,7 @@ import CoreLocation
 import Contacts
 
 // class because protocol
+@available(iOS 11.0, *)
 public class Location: NSObject {
 	public let name: String?
 	

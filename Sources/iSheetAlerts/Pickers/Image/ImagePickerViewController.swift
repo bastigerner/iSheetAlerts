@@ -25,6 +25,7 @@ extension UIAlertController {
     }
 }
 
+@available(iOS 11.0, *)
 final class ImagePickerViewController: UIViewController {
     
     public typealias SingleSelection = (UIImage?) -> Swift.Void

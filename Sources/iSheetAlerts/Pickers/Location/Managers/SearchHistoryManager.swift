@@ -51,6 +51,7 @@ extension CLLocationCoordinate2D {
 	}
 }
 
+@available(iOS 11.0, *)
 extension Location {
     
 	func toDefaultsDic() -> NSDictionary? {
